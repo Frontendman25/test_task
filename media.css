@@ -1,0 +1,149 @@
+@media screen and (max-width: 880px){
+	.contentTop__caption1{
+		line-height: 1.39em;
+	}
+	.contentTop__ultrasonic{
+		font-size: 1.32em;
+	}
+	.contentTop__cleaner{
+		font-size: 1.9em;
+	}
+	.contentTop__car{
+		font-size: 2.53em
+	}
+	.contentTop__item{
+		flex: 1 1 100%;
+		flex-wrap: wrap;
+		display: flex;
+		margin-bottom: .5em;
+	}
+}
+
+@media screen and (max-width: 820px){
+	.contentTop__item{
+		font-size: .92em;
+	}
+}
+
+@media screen and (max-width: 769px){
+	.wrapper{
+		min-height: calc(100vh - 85px);
+	}
+	.contentBg{
+	margin: 0 0 15px 0;
+	}
+	.header{
+		margin-bottom: 15px;
+	}
+	.contentTop{
+		flex-wrap: wrap;
+		margin-bottom: 15px;
+	}
+	.contentTop__wrap{
+		width: 100%;
+	}
+	.contentTop__wrap_first{
+		height: 180px;
+	}
+	.contentTop__left{
+		margin-bottom: 15px;
+		padding: 0;
+		position: relative;
+		background-size: contain;
+		background-position: 15%;
+	}
+	.contentTop__caption1{
+		left: 45%;
+		top: 15%;
+		width: 45%;
+		padding: 1em;
+		border-radius: 10px;
+	}
+	.contentTop__caption2{
+		margin-bottom: .5em;
+	}
+	.features__text{
+		text-align: justify;
+	}
+}
+
+@media screen and (max-width: 690px){
+	body{
+		font-size: .8em
+	}
+	.header{
+		padding: 0;
+	}
+	.header__list{
+		display: none;
+		max-width: 100%;
+		border-radius: 0 0 10px 10px;
+	}
+	.header__logo, .header__allLinks, .header__item, .header__link_button{
+		float: none;
+	}
+	.menuToggle{
+		display: block;
+		border-radius: 0;
+	}
+	#menuCheck:checked + .header__list{
+		display: block;
+		width: 100%;
+	}
+	.header__logo, .header__item, .header__allLinks{
+		width: 100%;
+		display: block;
+	}
+	.header__item, .header__logo{
+		padding: 2px;
+	}
+	.header__link{
+		display: inline-block;
+		vertical-align: top;
+	}
+	.header__allLinks{
+		padding: 0;
+	}
+	.header__link_button{
+		line-height: normal;
+	}
+	.footer__inner{
+		height: 70px;
+	}
+}
+
+@media screen and (max-width: 550px){
+	.contentTop__caption1{
+		padding: .5em;
+		left: 50%;
+		font-size: .8em;
+	}
+}
+@media screen and (max-width: 491px){
+	.contentTop__rightWrap{
+		line-height: 1em;
+	}
+	.contentTop__caption2{
+		font-size: 1.2em;
+		line-height: 1.5em;
+	}
+	.contentTop__dotted{
+		height: .9em;
+	}
+	.features__caption{
+		font-size: 1.2em;
+	}
+	.footer{
+		font-size: .9em;
+	}
+}
+@media screen and (max-width: 338px){
+	.footer__inner{
+		height: 70px;
+	}
+}
+@media screen and (max-width: 320px){
+	body{
+		font-size: .7em;
+	}
+}

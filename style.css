@@ -1,0 +1,212 @@
+@keyframes menuDown{
+	from{
+		transform: translateY(-150px);
+	}
+	to{
+		transform: translateY(0px);
+	}
+}
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.clearfix:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 0 10px;
+}
+.in-bl{
+	display: inline-block;
+	vertical-align: top;
+}
+body{
+	font: 100%/1.5 Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+.wrapper{
+	margin: 0 auto;
+	max-width: 960px;
+	min-height: calc(100vh - 100px);
+}
+.header{
+	margin: 0 15px 30px;
+	padding: 5px 0;
+	background: #1049a9;
+	border-radius: 10px;
+}
+.menuToggle, #menuCheck{
+	display: none;
+	font-size: 1.3em;
+	text-align: center;
+	font-weight: bold;
+	padding: 5px 0;
+}
+.menuToggle::selection, #menuCheck::selection{
+	background: none;
+}
+.header__logo{
+	padding: 6px;
+}
+.header__list{
+	text-align: center;
+}
+.header__item{
+	padding: 0;
+}
+.header__link{
+	padding: 7px;
+	border-radius: 10px;
+	color: #fff;
+	font-weight: bold;
+}
+.header__link:hover{
+	background: #ffce00;
+	color: #1049a9;
+}
+.header__link_logo img{
+	vertical-align: middle;
+}
+.header__link_button{
+	font-size: 1em;
+	line-height: 1.5em;
+	background: linear-gradient(to top, #ffce00, #ff8300);
+	cursor: pointer;
+	letter-spacing: .04em;
+}
+.header__link_button:hover{
+	background: linear-gradient(to bottom, #ffce00, #ff8300);
+	color: #1049a9;
+}
+.contentBg{
+	margin: 0 0 30px 0;
+	background: url(img/Passion_Gold1.jpg) no-repeat;
+	background-size: 100%;
+}
+.contentTop{
+	display: flex;
+	margin: 0 5px;
+	margin-bottom: 30px;
+}
+.contentTop__wrap{
+	display: flex;
+}
+.contentTop__left, .contentTop__right{
+	flex: 1;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 1px rgba(6, 26, 60, .75);
+}
+.contentTop__left{
+	position: relative;
+	padding: 45%;
+	background-color: rgba(255, 206, 0, 0.6);
+	background-image: url(img/usu_retona_sinyaya.png);
+	background-repeat: no-repeat;
+	background-size: 87%;
+	background-position: 30% 
+}
+.contentTop__caption1, .contentTop__caption2{
+	text-align: center;
+	font-weight: bold;
+}
+.contentTop__caption1{
+	position: absolute;
+	top: 8%;
+	right: 0;
+	width: 50%;
+	padding: .4em;
+	border-radius: 10px 0 0 10px;
+	background: rgba(255, 131, 0, 0.502);
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.7em;
+}
+.contentTop__ultrasonic{
+	font-size: 1.56em;
+	color: #3661a9;
+}
+.contentTop__cleaner{
+	font-size: 2.18em;
+}
+.contentTop__car{
+	font-size: 2.93em;
+}
+.contentTop__right{
+	display: flex;
+	background-color: rgba(16, 73, 169, 0.65);
+	padding: 1em;
+}
+.contentTop__caption2{
+	margin-bottom: 1em;
+	font-size: 1.3em;
+}
+.contentTop__text{
+	display: flex;
+	flex-wrap: wrap;
+}
+.contentTop__item{
+	flex: 1 1 100%;
+	display: flex;
+	margin-bottom: .5em;
+}
+.contentTop__dotted{
+	flex: 1;
+	border-bottom: 1px dotted #fff;
+	height: 1.1em;
+}
+.features{
+	margin: 0 15px;
+	padding: 1em;
+	background-color: rgba(16, 73, 169, 0.65);
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 1px rgba(6, 26, 60, .75);
+}
+.features__caption{
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.3em;
+	margin-bottom: .5em;
+}
+.footer{
+	max-width: 960px;
+	margin: 0 auto;
+	height: 70px;
+}
+.footer__inner{
+	padding: 1em;
+	margin: 0 10px;
+	text-align: center;
+	background: #1049a9;
+	border-radius: 10px;
+}
+.header__allLinks{
+	display: flex;
+	justify-content: space-around;
+	padding: 7px 0;
+}
